@@ -1,0 +1,27 @@
+name: cms
+excludes:
+  - vendor
+  - node_modules
+recipe: drupal9
+config:
+  webroot: .
+  php: '7.4'
+  composer_version: '1.10.1'
+tooling:
+  drupal:
+    service: cms
+    description: Runs drupal console
+    dir: /app
+  wdrush:
+    service: cms
+    description: Runs drush in Windows host OS
+    cmd: php /app/vendor/drush/drush/drush
+  wdrupal:
+    service: cms
+    description: Runs drupal in Windows host OS
+    cmd: php /app/vendor/drupal/console/bin/drupal
+services:
+  cms:
+    build_as_root:
+      - apt update -y
+      - apt-get install vim -y

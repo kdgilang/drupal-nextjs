@@ -1,0 +1,17 @@
+uuid: 32fd74f3-cbf7-4570-81c2-410d85d2f1a3
+langcode: en
+status: true
+dependencies: {  }
+id: theme_options
+label: 'Theme options'
+token: true
+context:
+  show_warning: true
+  group:
+    language: false
+  fallback:
+    language: ''
+menu:
+  path: /admin/content/theme-options
+  weight: 1
+  description: 'custom config'

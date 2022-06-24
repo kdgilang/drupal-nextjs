@@ -1,0 +1,26 @@
+uuid: e195b89b-3a3f-4edb-8898-af786ff2fd2b
+langcode: en
+status: true
+dependencies:
+  config:
+    - config_pages.type.theme_options
+    - field.field.config_pages.theme_options.field_logo
+  module:
+    - image
+id: config_pages.theme_options.default
+targetEntityType: config_pages
+bundle: theme_options
+mode: default
+content:
+  field_logo:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

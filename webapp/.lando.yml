@@ -1,0 +1,17 @@
+name: webapp
+excludes:
+  - node_modules
+config:
+  webroot: .
+services:
+  webapp:
+    type: node:16
+    ssl: false
+    port: 3000
+    command: yarn dev
+    globals: []
+    build_as_root:
+      - yarn install
+# proxy:
+#   webapp:
+#     - webapp.lndo.site

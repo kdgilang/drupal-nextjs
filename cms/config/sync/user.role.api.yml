@@ -1,0 +1,49 @@
+uuid: b542cb45-b64b-4598-83fd-6ed12b5677bb
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.restricted_html
+  module:
+    - access_unpublished
+    - field_ui
+    - filter
+    - layout_builder
+    - node
+    - system
+_core:
+  default_config_hash: LpvUYuyxUGMqrVVEkb5aEbUvY73MK0Ss81Q2Ag53-yI
+id: api
+label: 'Api user'
+weight: -5
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'access_unpublished block_content cards'
+  - 'access_unpublished block_content content_listing_component'
+  - 'access_unpublished block_content embed_block'
+  - 'access_unpublished block_content hero_media_block'
+  - 'access_unpublished block_content map_block'
+  - 'access_unpublished block_content paragraph_content'
+  - 'access_unpublished block_content referenced_cards'
+  - 'access_unpublished block_content social_media'
+  - 'access_unpublished block_content text_block'
+  - 'access_unpublished media gallery'
+  - 'access_unpublished media image'
+  - 'access_unpublished media instagram'
+  - 'access_unpublished media tweet'
+  - 'access_unpublished media video'
+  - 'access_unpublished menu_link_content'
+  - 'access_unpublished node article'
+  - 'access_unpublished node smart_article'
+  - 'access_unpublished paragraph from_library'
+  - 'access_unpublished paragraphs_library_item'
+  - 'access_unpublished taxonomy_term highlights'
+  - 'access_unpublished taxonomy_term tags'
+  - 'administer display modes'
+  - 'administer menu'
+  - 'configure any layout'
+  - 'use text format restricted_html'
+  - 'view all revisions'
+  - 'view latest version'
+  - 'view media'

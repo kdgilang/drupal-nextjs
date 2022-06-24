@@ -1,0 +1,24 @@
+{
+  "name": "web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev_server": "node server.js",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "ezcontent_jsonapi": "^2.0.8",
+    "hex-to-rgba": "^2.0.1",
+    "isomorphic-unfetch": "^3.1.0",
+    "next": "12",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
+    "react-instagram-embed": "^2.0.0",
+    "react-slick": "^0.27.13"
+  }
+}

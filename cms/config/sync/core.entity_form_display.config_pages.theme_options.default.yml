@@ -1,0 +1,25 @@
+uuid: 1fb586eb-1f4a-442d-93b9-5d29cbfd0928
+langcode: en
+status: true
+dependencies:
+  config:
+    - config_pages.type.theme_options
+    - field.field.config_pages.theme_options.field_logo
+    - image.style.thumbnail
+  module:
+    - image
+id: config_pages.theme_options.default
+targetEntityType: config_pages
+bundle: theme_options
+mode: default
+content:
+  field_logo:
+    type: image_image
+    weight: 0
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+hidden:
+  label: true
