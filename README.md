@@ -4,13 +4,19 @@ This project is about cms drupal headless as a restfull api service & nextjs as 
 
 ## Installation
 requirements
-    - [Docker](https://www.docker.com/products/docker-desktop/)
+    - [git](https://git-scm.com/downloads)
+    - [Docker](https://www.docker.com/products/docker-desktop)
     - [Lando](https://docs.lando.dev/getting-started/installation.html)
     
-open terminal in root dir project
+
+clone repo:
+`git@github.com:kdgilang/drupal-nextjs.git`
+copy env file in webapp directory:
+`cp .env.example .env`
+
+run this in main root directory
 ```sh
 run.sh install
-node app
 ```
 
-Yay app ready to explore !!!
+Yay app ready to explore !!!y
