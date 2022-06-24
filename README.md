@@ -10,13 +10,16 @@ requirements
     
 
 clone repo:
-`git@github.com:kdgilang/drupal-nextjs.git`
+```sh
+git clone git@github.com:kdgilang/drupal-nextjs.git
+```
 copy env file in webapp directory:
-`cp .env.example .env`
-
-run this in main root directory
+```sh
+cp .env.example .env
+```
+run this command in main root directory
 ```sh
 run.sh install
 ```
 
-Yay app ready to explore !!!y
+Yay app ready to explore !!!
