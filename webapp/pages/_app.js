@@ -1,7 +1,5 @@
 import React from "react";
 import get from "lodash/get";
-import EZContentJsonApi from 'ezcontent_jsonapi';
-
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Component from "../components";

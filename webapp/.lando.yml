@@ -4,7 +4,7 @@ excludes:
 config:
   webroot: .
 services:
-  webapp:
+  dev:
     type: node:16
     ssl: false
     port: 3000
@@ -12,6 +12,15 @@ services:
     globals: []
     build_as_root:
       - yarn install
+  prod:
+    type: node
+    command: yarn start
+    globals: []
+    ssl: false
+    port: 3000
+    build_as_root:
+      - yarn install
+      - yarn build
 # proxy:
 #   webapp:
 #     - webapp.lndo.site
